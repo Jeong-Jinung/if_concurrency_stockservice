@@ -14,5 +14,4 @@ public interface LockRepository extends JpaRepository<Stock, Long> {
     void releaseLock(@Param("key") String key);
 
 
-
 }
